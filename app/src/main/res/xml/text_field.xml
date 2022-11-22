@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="25%p"
+    android:keyHeight="55dp"
+    android:horizontalGap="0dp"
+    android:verticalGap="0dp">
+
+    <Row android:keyWidth="50%p" android:keyHeight="35dp">
+        <Key android:codes="-102" android:keyIcon="@drawable/ic_clipboard"/>
+        <Key android:codes="-103" android:keyIcon="@drawable/ic_text_field"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-110" android:keyLabel="All" android:keyEdgeFlags="left"/>
+        <Key android:codes="-111" android:keyIcon="@drawable/ic_arrow_up" android:isRepeatable="true"/>
+        <Key android:codes="-112" android:keyLabel="Clear"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/ic_delete" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-113" android:keyIcon="@drawable/ic_arrow_left" android:isRepeatable="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="-114" android:keyLabel="Select" android:isSticky="true"/>
+        <Key android:codes="-115" android:keyIcon="@drawable/ic_arrow_right" android:isRepeatable="true"/>
+        <Key android:codes="-116" android:keyLabel="Back" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-117" android:keyLabel="Home" android:keyEdgeFlags="left"/>
+        <Key android:codes="-118" android:keyIcon="@drawable/ic_arrow_down" android:isRepeatable="true"/>
+        <Key android:codes="-119" android:keyLabel="End"/>
+        <Key android:codes="32" android:keyLabel="⎵" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-120" android:keyLabel="Copy" android:keyEdgeFlags="left"/>
+        <Key android:codes="-121" android:keyLabel="Cut"/>
+        <Key android:codes="-122" android:keyLabel="Paste"/>
+        <Key android:codes="-123" android:keyLabel="Tab" android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>
